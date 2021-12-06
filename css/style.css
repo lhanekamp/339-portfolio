@@ -756,6 +756,10 @@ footer .footer-text h2{
 
 }
 
+div.list-container {
+  display: flex;
+  flex-direction: column;
+}
 
 .dessert-text  {
   grid-column: 1 / -1;
@@ -1596,6 +1600,14 @@ footer img .logo{
 }
 
 
+div.list-container {
+  flex-direction: row;
+}
+
+.first-half {
+  margin-right: 20px;
+}
+
 .contact-photo img {
   position: relative;
   margin-top: -50%;
@@ -1773,10 +1785,10 @@ color: white;
 
 .grid-space ul {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-ul .first-half {
+.first-half {
   padding-right: 10%;
 }
 
@@ -2155,6 +2167,7 @@ a.skip:focus{
  
   @media screen and (min-width: 1224px) {
 
+ 
   #favorites a {
     width: 47%;
     height: 400px;
