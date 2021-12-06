@@ -1594,14 +1594,7 @@ footer img .logo{
   padding-right: 0px;
   min-height: 650px;
 }
-#hero div {
-  background-color: transparent;
-  border-left: none;
-  padding: 3%;
-  padding-left: 9%;
-  padding-right: 0;
-  margin-bottom: 4%;
-}
+
 
 .contact-photo img {
   position: relative;
@@ -2089,9 +2082,6 @@ footer p {
     min-height: 550px;
   }
 
-  #hero div {
-    background-color: transparent;
-  }
 
 
   
